@@ -1,0 +1,130 @@
+@media screen and (min-width: 1024px) {
+  .block-home {
+    display: flex;
+    position: fixed;
+    width: 94%;
+    height: 800px;
+    border-radius: 20px;
+    border: 2px solid #08394A;
+    margin: 30px;
+    margin-top: 30px;
+    color: #08394A;
+    background-color: #fff;
+  }
+  .header-home {
+    display: flex;
+    margin: 40px;
+    margin-top: 20px;
+    height: 100px;
+    padding: 15px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: #08394A;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    border-bottom: 2px solid #08394A;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  .header-section-home {
+    display: flex;
+    align-items: center;
+  }
+  .header-item-logo-home {
+    padding: 10px 15px;
+    cursor: default;
+  }
+  .header-item-home a {
+    padding: 5px 10px;
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: black;
+  }
+  .header-item-home a:hover {
+    width: 25px;
+    color: #50b964;
+    border-radius: 50px;
+  }
+  .header-item-home:active {
+    transform: scale(0.9);
+    transition: 0.3s;
+  }
+  .headre-button-home {
+    cursor: pointer;
+  }
+  .logo-header-home {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    display: none;
+    position: absolute;
+    width: 94%;
+    height: 100px;
+    justify-content: space-around;
+    margin: 30px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;
+    color: #08394A;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid #08394A;
+  }
+  .header-section {
+    display: flex;
+    align-items: center;
+  }
+  .header-item-logo {
+    padding: 10px 15px;
+    cursor: default;
+  }
+  .header-item a {
+    padding: 10px 15px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: black;
+  }
+  .header-item a:hover {
+    width: 25px;
+    color: #50b964;
+    border-radius: 50px;
+  }
+  .header-item:active {
+    transform: scale(0.9);
+    transition: 0.3s;
+  }
+  .headre-button {
+    cursor: pointer;
+  }
+  .logo-header {
+    width: 80%;
+    height: auto;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #08394A;
+  background-color: rgba(80, 185, 99, 0.0549019608);
+  font-family: "Work Sans", sans-serif;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+@import './compoments/home';
+@import './compoments/header';
+
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   color: #08394A;
+   background-color: #50b9630e;
+   font-family: "Work Sans", sans-serif;
+}

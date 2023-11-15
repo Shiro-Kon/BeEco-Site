@@ -1,54 +1,62 @@
 @media screen and (min-width: 1024px) {
+
+
+
     .block-home {
         display: flex;
-        position: fixed;
-        width: 94%;
-        height: 800px;
-        border-radius: 20px;
-        border: 2px solid #08394a;
-        margin: 30px;
-        margin-top: 30px;
-        color: #08394a;
-        background-color: #fff;
+    width: 94%;
+    height: 920px;
+    border-radius: 20px;
+    border: 2px solid #08394a;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #08394a;
+    background-color: #fff;
+    flex-direction: column;
+    flex-wrap: nowrap;
     }
     .header-home {
         display: flex;
-        margin: 40px;
+        width: 100%;
+        margin: 0 auto;
         margin-top: 20px;
         height: 100px;
-        padding: 15px;
-        padding-bottom: 30px;
         background-color: #fff;
         color: #08394a;
-        font-family: "Work Sans", sans-serif;
-        font-size: 14px;
         border-bottom: 2px solid #08394a;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-around;
-        align-content: space-around;
+        padding-bottom: 10px;
+        justify-content: space-between;
+
+       
+    }
+    @media screen and (min-width: 1110px) {
+        .header-home {
+            width: 1024px;
+        }
     }
     .header-section-home {
         display: flex;
         align-items: center;
     }
     .header-item-logo-home {
-        padding: 10px 15px;
+        margin: 10px;
         cursor: default;
     }
     .header-item-home a {
         padding: 5px 10px;
-        margin-left: 2px;
-        font-size: 16px;
+        margin-left: 5px;
+        font-size: 15px;
         font-weight: 600;
-        border-radius: 50px;
         transition: 0.3s;
         color: black;
+        
+    }
+    .header-item-home a:last-of-type{
+        margin-right: 5px;
     }
     .header-item-home a:hover {
         width: 25px;
         color: #50b964;
-        border-radius: 50px;
     }
     .header-item-home:active {
         transform: scale(0.9);
@@ -62,4 +70,17 @@
         width: 100%;
         height: auto;
     }
+    
+    .section-group{
+        display: flex;
+        margin-top: 200px;
+        
+    }
+
+    .img-home{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
 }
+

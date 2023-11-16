@@ -27,7 +27,7 @@
 }
 @media screen and (min-width: 1024px) and (min-width: 1110px) {
   .header-home {
-    width: 1024px;
+    width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -43,9 +43,10 @@
     padding: 5px 10px;
     margin-left: 5px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     transition: 0.3s;
     color: black;
+    line-height: initial;
   }
   .header-item-home a:last-of-type {
     margin-right: 5px;
@@ -67,12 +68,43 @@
   }
   .section-group {
     display: flex;
-    margin-top: 200px;
+    margin-top: 100px;
   }
   .img-home {
     width: 100%;
     height: auto;
-    margin: 10px;
+    padding: 10px;
+  }
+  .section-l {
+    width: 70%;
+    margin-left: 20px;
+  }
+  section-r {
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .block-min-logo {
+    width: 100px;
+    text-align: center;
+    padding: 8px 16px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    border: 2px solid #08394a;
+    border-radius: 36px;
+    font-weight: 600;
+  }
+  .title {
+    width: 100%;
+    font-size: 54px;
+    font-weight: 700;
+  }
+  .green {
+    color: #50b964;
+  }
+  .title-h5 {
+    font-size: 22px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
